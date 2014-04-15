@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true" >
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:background="#FFFFFF" >
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/milligram" />
+        	
+    	    <EditText
+   				android:id="@+id/milligram_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/gram" />
+        	
+    	    <EditText
+   				android:id="@+id/gram_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/ounce" />
+        	
+    	    <EditText
+   				android:id="@+id/ounce_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/pound" />
+        	
+    	    <EditText
+   				android:id="@+id/pound_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/kilogram" />
+        	
+    	    <EditText
+   				android:id="@+id/kilogram_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/stone" />
+        	
+    	    <EditText
+   				android:id="@+id/stone_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/short_ton" />
+        	
+    	    <EditText
+   				android:id="@+id/short_ton_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/metric_ton" />
+        	
+    	    <EditText
+   				android:id="@+id/metric_ton_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/long_ton" />
+        	
+    	    <EditText
+   				android:id="@+id/long_ton_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+
+        	<Button
+        	    android:id="@+id/weight_reset_button"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/reset" />
+    	</LinearLayout>
+ 
+	</LinearLayout>
+</ScrollView>

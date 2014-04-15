@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true" >
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:background="#FFFFFF" >
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/milliliter" />
+        	
+    	    <EditText
+   				android:id="@+id/milliliter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/teaspoon" />
+        	
+    	    <EditText
+   				android:id="@+id/teaspoon_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/centiliter" />
+        	
+    	    <EditText
+   				android:id="@+id/centiliter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/tablespoon" />
+        	
+    	    <EditText
+   				android:id="@+id/tablespoon_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/ounce_volume" />
+        	
+    	    <EditText
+   				android:id="@+id/ounce_volume_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/cup" />
+        	
+    	    <EditText
+   				android:id="@+id/cup_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/pint" />
+        	
+    	    <EditText
+   				android:id="@+id/pint_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/liter" />
+        	
+    	    <EditText
+   				android:id="@+id/liter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/gallon" />
+        	
+    	    <EditText
+   				android:id="@+id/gallon_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/kiloliter" />
+        	
+    	    <EditText
+   				android:id="@+id/kiloliter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+
+        	<Button
+        	    android:id="@+id/volume_reset_button"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/reset" />
+    	</LinearLayout>
+ 
+	</LinearLayout>
+</ScrollView>

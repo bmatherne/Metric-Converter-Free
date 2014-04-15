@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true" >
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:background="#FFFFFF" >
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_millimeter" />
+        	
+    	    <EditText
+   				android:id="@+id/square_millimeter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_centimeter" />
+        	
+    	    <EditText
+   				android:id="@+id/square_centimeter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_inch" />
+        	
+    	    <EditText
+   				android:id="@+id/square_inch_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_feet" />
+        	
+    	    <EditText
+   				android:id="@+id/square_feet_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_yard" />
+        	
+    	    <EditText
+   				android:id="@+id/square_yard_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_meter" />
+        	
+    	    <EditText
+   				android:id="@+id/square_meter_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/acre" />
+        	
+    	    <EditText
+   				android:id="@+id/acre_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_kilometer" />
+        	
+    	    <EditText
+   				android:id="@+id/square_kilometer_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+    	    <TextView
+    	        android:layout_width="130dp"
+    	        android:layout_height="wrap_content"
+    	        android:gravity="center"
+    	        android:textSize="14sp"
+    	        android:text="@string/square_mile" />
+        	
+    	    <EditText
+   				android:id="@+id/square_mile_text_field"
+    			android:layout_width="125dp"
+    			android:layout_height="wrap_content"
+    			android:textSize="14sp"
+    			android:inputType="numberDecimal|numberSigned"
+    			android:imeOptions="actionDone" />
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+
+        	<Button
+        	    android:id="@+id/area_reset_button"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/reset" />
+    	</LinearLayout>
+ 
+	</LinearLayout>
+</ScrollView>
